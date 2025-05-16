@@ -24,7 +24,19 @@ body {
 }
 .menu-sup-2 {
   grid-area: menu-sup-2;
-  background-color: burlywood;
+  background-color:blueviolet;
+}
+.texto-menu-sup-2{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  height: 20px;
+}
+.texto-menu-sup-2{
+  font-size: 20px;
+  font-weight: 600;
 }
 .price {
   grid-area: price;
@@ -36,6 +48,8 @@ body {
 }
 .material-symbols-outlined{
   font-size: 100px;
+  display: flex;
+  justify-content: center;
 
 }
 .icon{
@@ -52,4 +66,13 @@ body {
 .card-icon > p{
 display: flex;
 justify-content: center;
+}
+.pie-de-pagina{
+  display: flex;
+  justify-content:space-around;
+  padding: 50px;
+  border: 1px solid black;
+}
+.rrss > a > img{
+  width: 30px;
 }
