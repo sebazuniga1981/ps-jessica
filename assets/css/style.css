@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
 .web-layout {
@@ -16,11 +17,11 @@ body {
 }
 .header {
   grid-area: header;
-  background-color: #f8b400;
+  background-color: #be2ef6;
 }
 .menu-sup-1 {
   grid-area: menu-sup-1;
-  background-color: bisque;
+  background-color: #dda6f2;
 }
 .menu-sup-2 {
   grid-area: menu-sup-2;
