@@ -7,7 +7,7 @@ body {
   display: grid;
 
   grid-template-areas:
-    " header"
+    "header"
     "menu-sup-1"
     "menu-sup-2"
     "price"
@@ -45,4 +45,11 @@ body {
 }
 .card-icon{
   background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+
+}
+.card-icon > p{
+display: flex;
+justify-content: center;
 }
