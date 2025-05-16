@@ -1,6 +1,48 @@
-body{
-    font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.web-layout {
+  display: grid;
+
+  grid-template-areas:
+    " header"
+    "menu-sup-1"
+    "menu-sup-2"
+    "price"
+    "pie-de-pagina";
+  min-height: 100dvh;
+}
+.header {
+  grid-area: header;
+  background-color: #f8b400;
+}
+.menu-sup-1 {
+  grid-area: menu-sup-1;
+  background-color: bisque;
+}
+.menu-sup-2 {
+  grid-area: menu-sup-2;
+  background-color: burlywood;
+}
+.price {
+  grid-area: price;
+  background-color: tomato;
+}
+.pie-de-pagina {
+  grid-area: pie-de-pagina;
+  background-color: cadetblue;
+}
+.material-symbols-outlined{
+  font-size: 100px;
+
+}
+.icon{
+  display: flex;
+  justify-content:space-around;
+  border: 1px solid black;
+}
+.card-icon{
+  background-color: blueviolet;
 }
